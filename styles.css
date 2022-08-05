@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo {
+    font-family: Norse-Bold;
+    height: 20%;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    font-size: 9rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+}
+.logo img {
+    max-height: 10rem;
+}
+p{
+    font-family: Roboto ,sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+p:last-child {
+    margin: 30px 0px;
+}
+.image-sidebar {
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    width: 40%;
+    height: 100%;
+}
+
+.loginarea {
+    background-color: #f9fafc;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+form {
+    box-shadow: 0px 5px 5px grey;
+    background-color: white;
+    padding: 20px 40px  50px;
+    height: 250px;
+}
+
+
+form p {
+    margin-bottom: 20px;
+}
+.form-info {
+ max-height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content:flex-start;
+    row-gap: 10px;
+    column-gap: 150px;
+
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px; 
+    width: 300px;
+
+}
+
+.inputs label {
+    text-transform: uppercase; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #838990;
+ 
+}  
+
+.inputs input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: grey;
+
+    border: 1px solid grey;
+    border-radius: 5px;
+
+    width: 300px;
+    height: 20px;
+    padding: 5px 8px;
+}
+.submit {
+    margin: 40px 40px 0 ;
+}
+.submit input {
+    color: white;
+    background-color: #596d48;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    padding: 15px 40px;
+
+    border: none;
+    font-weight: 900;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px grey;
+    cursor:pointer;
+}
+
+input:invalid {
+    color: red;
+    border-color: red;
+}
+
+.submit a:link, .submit a:visited {
+    color: #596d48;
+    text-decoration: none;
+}
+
+.intro {
+    margin-left: 40px;
+    width: 70%;
+    margin-bottom: 30px;
+}
