@@ -122,11 +122,6 @@ form p {
     cursor:pointer;
 }
 
-input:invalid {
-    color: red;
-    border-color: red;
-}
-
 .submit a:link, .submit a:visited {
     color: #596d48;
     text-decoration: none;
